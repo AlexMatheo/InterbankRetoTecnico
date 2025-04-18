@@ -21,7 +21,7 @@ cd InterbankRetoTecnico
 Ejecuta el programa:
 
 bashpython src/main.py [ruta_al_archivo_csv]
-Si no se especifica una ruta para el archivo CSV, el programa utilizará el archivo predeterminado ubicado en data/transactions.csv.
+Si no se especifica una ruta para el archivo CSV, el programa utilizará el archivo predeterminado ubicado en data/data.csv.
 
 
 Enfoque y Solución
@@ -45,13 +45,13 @@ proyecto/
 │   └── transaction_processor.py # Clase principal de procesamiento
 │
 ├── data/
-│   └── transactions.csv        # Archivo de ejemplo con transacciones
+│   └── data.csv        # Archivo de ejemplo con transacciones
 │
 └── README.md                   # Este archivo
 
 main.py: Maneja la interfaz de línea de comandos y utiliza la clase TransactionProcessor.
 transaction_processor.py: Contiene la lógica principal para cargar, procesar y generar reportes de transacciones.
-transactions.csv: Archivo de ejemplo que contiene transacciones financieras.
+data.csv: Archivo de ejemplo que contiene transacciones financieras.
 
 
 Mejoras Futuras
